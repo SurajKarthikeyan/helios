@@ -2,12 +2,12 @@
 
 A real-time NASA-style mission control terminal built in C using SDL2 and OpenGL, featuring CRT phosphor display effects, live ISS tracking, and system telemetry.
 
-![HELIOS](assets/screenshot.png)
+![HELIOS](assets/screenshot.PNG)
 
 ## Screenshots
 
-![Phosphor Green](assets/screenshot_green.png)
-![Amber](assets/screenshot_amber.png)
+![Phosphor Green](assets/screenshot_green.PNG)
+![Amber](assets/screenshot_amber.PNG)
 
 ## Features
 
