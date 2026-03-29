@@ -2,7 +2,12 @@
 
 A real-time NASA-style mission control terminal built in C using SDL2 and OpenGL, featuring CRT phosphor display effects, live ISS tracking, and system telemetry.
 
-![HELIOS Screenshot](assets/screenshot.png)
+![HELIOS](assets/screenshot.png)
+
+## Screenshots
+
+![Phosphor Green](assets/screenshot_green.png)
+![Amber](assets/screenshot_amber.png)
 
 ## Features
 
@@ -10,16 +15,10 @@ A real-time NASA-style mission control terminal built in C using SDL2 and OpenGL
 - **Live ISS Tracking** — Real-time International Space Station position from the Open Notify API, plotted on a 3D rotating Earth
 - **Interactive Globe** — Auto-centers on the ISS when data arrives, then free-rotates with mouse drag
 - **System Telemetry** — Live CPU usage, RAM usage, and system stats via Windows API
-- **Alert Log** — Real-time severity-tiered event feed with timestamps
-- **MET Clock** — Mission Elapsed Time counter
+- **Alert Log** — Real-time severity-tiered event feed (INFO, WARN, CRIT) with timestamps
+- **MET Clock** — Mission Elapsed Time counter ticking from launch
 - **4 CRT Themes** — Phosphor Green, Amber, Cold Cyan, Minimal White
 - **IBM VGA Font** — Authentic DOS-era bitmap font from int10h.org
-
-## Screenshots
-
-| Amber Theme | Phosphor Green |
-|---|---|
-| Globe tracking ISS over South America | Alert log with live system events |
 
 ## Building
 
@@ -77,7 +76,7 @@ helios/
 │   ├── iss_vert.glsl     — ISS point marker vertex shader
 │   └── iss_frag.glsl     — ISS glow effect fragment shader
 ├── fonts/                — IBM VGA font (not included)
-├── assets/               — Earth texture (not included)
+├── assets/               — Earth texture and screenshots
 └── Makefile
 ```
 
